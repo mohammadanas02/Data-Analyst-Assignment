@@ -1,93 +1,120 @@
-# Data-Analyst-Assignment
+# 📊 **Order Details & Customer Retention Analysis Report**  
+*Prepared for ALT Mobility*
 
-Overview
+![ALT Mobility Banner](images/alt-mobility.png)
+---
 
-This document serves as a README for the "Order Details and Customer Retention Analysis Report" prepared for ALT Mobility. The report encompasses a detailed analysis of order statuses, payment methods, customer retention, and other vital metrics derived from the company's operational data spanning from 2020 to 2025. The insights provided aim to enhance strategic decision-making, optimize customer engagement, and improve overall business performance.
+## 🧭 Overview
 
+Welcome to the **Data Analyst Assignment** repository! This project presents a comprehensive report titled:
 
+> **"Order Details and Customer Retention Analysis Report"**
 
-Purpose of the Report
+Crafted for **ALT Mobility**, this report leverages data-driven insights to enhance strategic decision-making, optimize customer experiences, and strengthen operational efficiency between **2020 and 2025**.
 
-The primary purpose of this report is to provide ALT Mobility with actionable insights into their order processing and customer retention dynamics. By dissecting various aspects of the data, from payment methods to customer lifecycle patterns, the report aims to:
+---
 
-Identify areas for operational improvement.
+## 🎯 Purpose of the Report
 
-Enhance customer experience.
+The report aims to deliver **actionable insights** for ALT Mobility by diving deep into their operational and customer datasets.
 
-Strategize marketing efforts based on data-driven insights.
+Key goals include:
 
-Foster higher rates of customer retention and satisfaction.
+- 🚀 **Streamlining operations** by identifying process bottlenecks  
+- 😊 **Improving customer experiences** through behavior-based insights  
+- 🎯 **Refining marketing strategies** using retention and lifecycle data  
+- 🔁 **Boosting retention** and reducing churn through data-backed recommendations  
 
+---
 
+## 🗂️ Data Sources
 
-Data Sources
+Two key datasets power this report:
 
-The report is generated from two main datasets:
+| Dataset | Description |
+|--------|-------------|
+| `customer_orders.csv` | 🧾 Order ID, Customer ID, Dates, Amounts, Shipping, Status |
+| `payments.csv`        | 💳 Payment ID, Order ID, Payment Details, Methods, Status  |
 
-customer_orders.csv - Contains details about customer orders including order ID, customer ID, order date, amount, shipping address, and status.
+These datasets were cleaned, merged, and explored using **SQL** to extract meaningful business insights.
 
-payments.csv - Contains information about payments linked to the orders, including payment ID, order ID, payment date, amount, method, and status.
+---
 
+## 🛠️ Analytical Approach
 
+The analysis utilized **SQL querying** with various techniques and methodologies:
 
-These datasets were merged and queried to produce comprehensive insights addressing various business questions.
+### 📌 Key Methods Applied:
 
+- **🔍 Order Analysis:**  
+  Explored order fulfillment status and highlighted delays or pending issues.
 
+- **💳 Payment Analysis:**  
+  Assessed usage and failure rates across payment methods to identify friction points.
 
-Analytical Approach and Methodologies
+- **📈 Time-Series Trends:**  
+  Visualized order/payment data over time to detect seasonality and performance trends.
 
-The analysis was performed using SQL queries to join, filter, and aggregate data across different dimensions. Here is a brief overview of the methodologies applied:
+- **👥 Cohort Analysis:**  
+  Measured customer retention based on their onboarding month to reveal lifecycle behaviors.
 
+---
 
+## 📢 Key Findings
 
-Order Analysis: Focused on the distribution of order statuses to identify bottlenecks in the order fulfillment process.
+### ✅ Order Status:
+- High proportion of **pending** orders reveals opportunities for fulfillment optimization.
 
-Payment Analysis: Examined the usage of different payment methods and the success rates associated with each, identifying potential issues in payment processing.
+### ✅ Payment Behavior:
+- Balanced adoption across payment methods, with occasional spikes in **failed transactions**.
 
-Time-Series Analysis: Analyzed order and payment data over time to identify trends and seasonal fluctuations that impact business operations.
+### ✅ Retention Trends:
+- Notable **uptick in retention** post-2023, likely driven by new **customer engagement initiatives**.
 
-Cohort Analysis: Employed to evaluate customer retention over time, grouping customers by their first purchase date and tracking subsequent activity to derive retention patterns.
+---
 
+## 💡 Recommendations
 
+Based on the data analysis, the following actions are advised:
 
-Key Findings
+| Strategy | Recommendation |
+|----------|----------------|
+| 👋 **Onboarding & Engagement** | Deepen successful campaigns initiated post-2023. |
+| 🔁 **Re-engagement Campaigns** | Target early-drop customers with personalized outreach. |
+| 🎯 **Behavior-Based Segmentation** | Use customer behavior to tailor services and marketing. |
 
-Order Status Distribution: Highlighted a significant volume of pending orders, suggesting potential delays in order fulfillment.
+---
 
-Payment Method Usage: Indicated equitable use across different methods, with specific insights into failure rates that could help enhance payment system integrations.
+## 📌 Sample Visualizations
 
-Customer Retention: Recent initiatives appear to have positively impacted customer retention rates, particularly in cohorts from the years 2023 to 2025.
+> *(Placeholder Images: Replace with your Power BI screenshots)*
 
+### 🔥 Retention Matrix Heatmap  
+![Cohort Retention Heatmap](images/assignment%20heatmap.png)
 
+### 📊 Order Status Breakdown  
+![Order Status Pie Chart](images/percentage%20wise.png)
 
-Recommendations
+---
 
-Based on the analysis, several strategic recommendations were made:
+## ✅ Conclusion
 
-Enhance Customer Onboarding and Engagement: Initiatives from 2023–2025 have shown promising results in improving customer retention. These should be analyzed further and potentially expanded.
+The **Order Details & Customer Retention Analysis Report** provides ALT Mobility with a solid foundation for **data-informed strategy**. By continuing on this path, ALT can:
 
-Re-engagement Campaigns: Targeting customers who show signs of dropping off after the initial few months with personalized re-engagement strategies could reduce churn rates.
+- Maximize operational efficiency 🚚  
+- Boost customer loyalty ❤️  
+- Drive sustainable growth 📈  
 
-Behavior-based Segmentation: Tailoring experiences based on customer behaviors and preferences can lead to improved long-term engagement and satisfaction.
+---
 
+## 📬 Contact
 
+For further discussion or questions regarding the report:
 
-Conclusion
+**👤 Mohammad Anas Alam**  
+📧 [anasalam9692@gmail.com](mailto:anasalam9692@gmail.com)  
+📞 +91-9439946563  
 
-The "Order Details and Customer Retention Analysis Report" for ALT Mobility provides a comprehensive view of the operational effectiveness and customer engagement strategies. By continuing to focus on data-driven decision-making, ALT Mobility can enhance operational efficiencies, improve customer satisfaction, and achieve sustained growth.
+---
 
-
-
-Contact Information
-
-For further inquiries or detailed discussions on the report findings, please contact:
-
-Mohammad Anas Alam
-
-Email: [anasalam9692@gmail.com]
-
-Phone: [9439946563]
-
-
-
-This README accompanies the detailed report and is intended to provide stakeholders with a quick overview of the purpose, methodology, and key findings from the analysis. For a detailed discussion, stakeholders are encouraged to refer to the full report.
+> ⚠️ **Note:** This README provides a summarized view. For complete insights and visuals, please refer to the full report in the repository.
