@@ -87,7 +87,7 @@ Based on the data analysis, the following actions are advised:
 
 ## 📌 Sample Visualizations
 
-> *(Placeholder Images: Replace with your Power BI screenshots)*
+
 
 ### 🔥 Retention Matrix Heatmap  
 ![Cohort Retention Heatmap](images/assignment%20heatmap.png)
