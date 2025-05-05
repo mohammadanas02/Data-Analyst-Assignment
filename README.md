@@ -1,16 +1,13 @@
 # 📊 **Order Details & Customer Retention Analysis Report**  
-*Prepared for ALT Mobility*
-
-![ALT Mobility Banner](images/alt-mobility.png)
----
 
 ## 🧭 Overview
 
-Welcome to the **Data Analyst Assignment** repository! This project presents a comprehensive report titled:
+Welcome to the **Electric Vehicle Sales Analysis: Trends and Insights** repository! This project presents a comprehensive report titled:
 
 > **"Order Details and Customer Retention Analysis Report"**
+> **"Electric Vehicle Sales Analysis: Trends and Insights"**
 
-Crafted for **ALT Mobility**, this report leverages data-driven insights to enhance strategic decision-making, optimize customer experiences, and strengthen operational efficiency between **2020 and 2025**.
+This report leverages data-driven insights to enhance strategic decision-making, optimize customer experiences, and strengthen operational efficiency between **2020 and 2025**.
 
 ---
 
@@ -92,9 +89,11 @@ Based on the data analysis, the following actions are advised:
 ### 🔥 Retention Matrix Heatmap  
 ![Cohort Retention Heatmap](images/assignment%20heatmap.png)
 
-### 📊 Order Status Breakdown  
+### 📊 Retention Matrix Heatmap By Percentage  
 ![Order Status Pie Chart](images/percentage%20wise.png)
 
+### 🔍📊 Summary Dashboard 
+![PowerBi Dashboard](images/ALT%MOBILITY%DASHBOARD.png)
 ---
 
 ## ✅ Conclusion
