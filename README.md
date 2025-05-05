@@ -93,7 +93,7 @@ Based on the data analysis, the following actions are advised:
 ![Order Status Pie Chart](images/percentage%20wise.png)
 
 ### 🔍📊 Summary Dashboard 
-![PowerBi Dashboard](images/ALT%MOBILITY%DASHBOARD.png)
+![PowerBi Dashboard](https://github.com/mohammadanas02/Electric-Vehicle-Sales-Analysis-Trends-and-Insights/blob/main/images/ALT%20MOBILITY%20DASHBOARD.png)
 ---
 
 ## ✅ Conclusion
